@@ -1,0 +1,14 @@
+fastapi:
+  debug: true
+
+databases:
+  default:
+    ENGINE: 'mongodb'
+    DRIVER: 'motor'
+    NAME: 'fileserver'
+    USER: ''
+    PASSWORD: ''
+    HOST: '95.111.235.214'
+    PORT: 32773
+    #HOST: '127.0.0.1'
+    #PORT: 27017

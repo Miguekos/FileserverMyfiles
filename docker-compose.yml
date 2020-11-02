@@ -1,0 +1,12 @@
+version: "2"
+services:
+  fileserver_myfiles:
+    container_name: fileserver_myfiles
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: uvicorn main:app --host="0.0.0.0" --port=9500 --reload
+    volumes:
+      - /usr/local/volumes/fileserver/myfiles/:/app/fileserver/
+    ports:
+      - "9500:9500"
