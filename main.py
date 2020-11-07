@@ -24,6 +24,7 @@ origins = [
     "http://95.111.235.214:9500",
     "https://tuenvioexpress.apps.com.pe/",
     "https://devtexcargo.apps.com.pe"
+    "https://dev.reinventing.com.pe/"
 ]
 
 app.add_middleware(
